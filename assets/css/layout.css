@@ -1246,10 +1246,11 @@
     margin-bottom: 20px;
 }
 
-#headshot {
-    width: 25%;
+.headshot {
+    width: 30%;
     margin-top: 15px;
-	border-radius: 100%;
+	clip-path: circle(40%);
+	object-fit: cover;
 }
 
 	.image {
